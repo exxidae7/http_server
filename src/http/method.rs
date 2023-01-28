@@ -1,5 +1,5 @@
 use std::str::FromStr;
-
+#[derive(Debug)]
 pub enum Method {
     GET,
     POST,
@@ -32,3 +32,5 @@ impl FromStr for Method {
 }
 
 pub struct MethodError;
+
+
